@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Proza+Libre&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Eczar&family=Pacifico&family=Proza+Libre&display=swap');
+
+body {
+    font-family: "Roboto", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    overflow: hidden;
+    color: #333;
+}
+
+
+.app {
+    position: relative;
+    color: #fff;
+}
+
+.backImg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    position: fixed;
+    z-index: -1;
+    top: 0px;
+    left: 0px;
+}
+
+.heading {
+    font-weight: 500 !important;
+    color: #15304c;
+    margin-bottom: 20px;
+    font-family: 'Eczar', serif;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Proza Libre', sans-serif;
+}
+
+.select {
+    padding: .7rem;
+    font-size: 1.2rem;
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.8);
+    background: rgba(255, 255, 255, 0.1);
+    color: #000000, #f8f8f8;
+}
+
+.countryOption {
+    color: #000000;
+}
+
+.top {
+    width: 100%;
+    margin-top: 80px !important;
+    color: white;
+}
+
+.weatherName {
+    color: #27516a;
+    font-weight: 700 !important;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Proza Libre', sans-serif;
+}
+
+.weatherCondition {
+    color: #000000;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.conditionTitle {
+    color: #546986;
+    font-size: 30px !important;
+    font-weight: bold !important;
+    margin-top: 5px;
+}
+
+.conditionDescription {
+    color: #000000;
+    font-size: 25px !important;
+    font-weight: bold !important;
+    margin-top: 5px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 100vh;
+    background-color: rgb(107, 105, 105);
+    background: transparent;
+}
+
+.card {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    width: 100%;
+    margin: 80px auto;
+    opacity: 70%;
+    background-color: white !important;
+}
+
+.cardTitle {
+    font-size: 30px !important;
+    font-weight: bold !important;
+}
+
+.bold {
+    font-weight: 700 !important;
+    font-size: 40px !important;
+    font-weight: bold;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.card {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    width: 100%;
+    margin: 80px auto;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+.cardTitle {
+    font-size: 30px !important;
+    font-weight: bold !important;
+}
+
+.bold {
+    font-size: 40px !important;
+    font-weight: bold;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
